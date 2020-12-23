@@ -1,7 +1,20 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="wrapper">
+    {% include 'includes/sidebar.html' %}
+    <div class="main-wrapper">
+       
+        {% include 'includes/career-profile.html' %}
+                    
+        {% include 'includes/experience.html' %}
+                    
+        {% include 'includes/projects.html' %}
+                    
+        {% include 'includes/skills.html' %}
+        
+    </div><!--//main-body-->
+</div>
+
+{% endblock %}
