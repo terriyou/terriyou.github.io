@@ -1,20 +1,139 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
 
-{% block content %}
+    <link rel="stylesheet" type="text/css" href="https://terriyou.github.io/theme/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://terriyou.github.io/theme/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://terriyou.github.io/theme/css/main-6.css" />
 
-<div class="wrapper">
-    {% include 'includes/sidebar.html' %}
-    <div class="main-wrapper">
-       
-        {% include 'includes/career-profile.html' %}
-                    
-        {% include 'includes/experience.html' %}
-                    
-        {% include 'includes/projects.html' %}
-                    
-        {% include 'includes/skills.html' %}
-        
-    </div><!--//main-body-->
-</div>
 
-{% endblock %}
+    <link href="https://terriyou.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Joonhyun Jeong's profile Atom">
+
+
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
+
+
+    <meta name="author" content="Mingyu Woo" />
+    <meta name="description" content="Mingyu Woo's profile" />
+    <title>Mingyu Woo's profile</title>
+
+</head>
+
+<body id="index" class="home">
+
+    <div class="wrapper">
+<!-- Use icons from fontawesome when you are adding new item in the contact list  -->             
+ 
+<div class="sidebar-wrapper">
+    <div class="profile-container">
+        <img class="profile-img" src="https://terriyou.github.io/theme/images/profile.png" alt="profile picture" />
+        <h1 class="name">Joonhyun Jeong</h1>
+        <h3 class="tagline">M.S. Student in Artificial Intelligence</h3>
+    </div><!--//profile-container-->
+    
+    <div class="contact-container container-block">
+        <ul class="list-unstyled contact-list">
+           
+            
+            
+            <li class="website"><i class="fa fa-globe"></i><a href="http://terriyou.github.io" target="_blank">terriyou.github.io</a></li>
+            
+            <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/derriyou" target="_blank">linkedin.com/in/derriyou</a></li>
+            
+            <li class="github"><i class="fa fa-github"></i><a href="http://github.com/terriyou" target="_blank">github.com/terriyou</a></li>
+            
+            <li class="github"><i class="fa fa-facebook"></i><a href="http://facebook.com/derriyou" target="_blank">facebook.com/derriyou</a></li>
+            
+            
+        </ul>
+    </div><!--//contact-container-->
+<div class="education-container container-block">
+<h2 class="container-block-title">Education</h2>
+    <div class="item">
+	    <h4 class="degree">M.S. in Artificial Intelligent</h4>
+	    <h5 class="meta">Sogang University</h5>
+	    <div class="time">Mar. 2020 - (Ongoing)</div>
+	</div><!--//item-->
+    <div class="item">
+	    <h4 class="degree">B.A. Summa Cum-Laude in Japanese Language & Studies</h4>
+	    <h5 class="meta">Daegu University</h5>
+	    <div class="time">Mar. 2014 - Feb. 2017</div>
+	</div><!--//item-->
+</div><!--//education-container-->
+<div class="languages-container container-block">
+	<h2 class="container-block-title">Languages</h2>
+	<ul class="list-unstyled interests-list">
+        <li>English <span class="lang-desc">(Higher proficiency)</span></li>
+        <li>Japanese <span class="lang-desc">(Native)</span></li>
+		<li>Korean <span class="lang-desc">(Native)</span></li>
+	</ul>
+</div><!--//interests-->
+<div class="interests-container container-block">
+	<h2 class="container-block-title">Interests</h2>
+	<ul class="list-unstyled interests-list">
+		   <li>Physics</li>
+		   <li>Math</li>
+		   <li>Computer Science</li>
+		   <li>Artificial Intelligent</li>
+	</ul>
+</div><!--//interests-->
+    
+</div><!--//sidebar-wrapper-->        <div class="main-wrapper">
+           
+<section class="section summary-section">
+<h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
+<div class="summary">
+    <p>Career for 2-years with full-time R&D Engineer in LaonPeople Inc. - one of the most famous Computer Vison research lab in Korea. I specialize in programming with solving an optimization problem based on C/C++/Python.<br />My passion for programming was fostered by problem solving of Algorithms.</p>
+</div><!--//summary-->
+</section><!--//section-->
+                        
+<section class="section experiences-section">
+    <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+        <div class="item">
+            <div class="meta">
+                <div class="upper-row">
+                    <h3 class="job-title" style="line-height:unset;">LaonPeople Inc., Bundang</h3>
+                    <div class="time">Dec. 2017 - Dec. 2019</div>
+                </div><!--//upper-row-->
+                <div class="company">Full-time Research & Development Engineer</div>
+            </div><!--//meta-->
+            <div class="details">
+                <p>Experienced whole steps on Object Detection in Artificial Intelligent with darket(yolo), Renewing server setting up of gitlab(Ubuntu 16.04) and Jenkins(Ubuntu 16.04, Windows 7), Server management(pre 2 and Darknet Training Server and Redmine Server), </p>
+            </div><!--//details-->
+        </div><!--//item-->
+</section><!--//section-->
+                        
+<section class="section projects-section">
+    <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+    <h4>Computer Vision Projects</h4>
+        <div class="item" style="margin-left:10px;">
+            <span class="project-title"><a href="https://www.sedaily.com/NewsView/1S76PMM078" target="_blank">LPSC-700</a></span> - <span class="project-tagline">LPSC-700 is the World-First embedded Deep Learning Camera</span>
+        </div><!--//item-->
+        <div class="item" style="margin-left:10px;">
+            <span class="project-title"><a href="https://news.mt.co.kr/mtview.php?no=2019093015417097120" target="_blank">Laon AI Traffic System</a></span> - <span class="project-tagline">With LPSC-700 development experiences, we made a deep learning camera and traffic control system.</span>
+        </div><!--//item-->
+
+</section><!--//section-->
+                        
+            
+        </div><!--//main-body-->
+    </div>
+
+    <footer class="footer">
+        <div class="text-center">
+            <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers</small>
+            <br>
+            <small class="copyright">Ported to Pelican with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Suhaib Khan</a></small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+    <script type="text/javascript" src="https://terriyou.github.io/theme/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://terriyou.github.io/theme/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://terriyou.github.io/theme/js/main.js"></script>
+</body>
+</html>
